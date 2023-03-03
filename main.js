@@ -18,12 +18,17 @@ const app = Vue.createApp({
         },
         updateVariant(index) {
             this.selectedVariant = index
-            console.log(index)
         }
     },
     computed: {
         title() {
             return this.brand + ' ' + this.product
+        },
+        image() {
+            return this.variants[this.selectedVariant].image
+        },
+        inStock() {
+            return this.variants[this.selectedVariant].quantity
         }
     }
 })
