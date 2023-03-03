@@ -4,7 +4,6 @@ const app = Vue.createApp({
             cart:0,
             product: 'Socks',
             brand: 'Vue Mastery',
-            selectedVariant: index,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
               { id: 2234, color: 'green', image: './assets/images/socks_green.jpg' },
