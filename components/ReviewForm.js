@@ -20,7 +20,6 @@ app.component('review-form', {
 
     <input class="button" type="submit" value="Submit">
 </form>`,
-
 data() {
     return {
         name: '',
@@ -28,7 +27,6 @@ data() {
         rating: null
     }
 },
-
 methods: {
     onSubmit() {
         let productReview = {
