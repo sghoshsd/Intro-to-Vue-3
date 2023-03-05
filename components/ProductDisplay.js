@@ -42,10 +42,8 @@ app.component('product-display', {
 
         <button 
           class="button" 
-          :class="{ disabledButton: !inStock }" 
-          :disabled="!inStock" 
-          v-on:click="RemoveFromCart">
-          Add to Cart
+          v-on:click="removeFromCart">
+          Remove From Cart
         </button>        
 
       </div>
