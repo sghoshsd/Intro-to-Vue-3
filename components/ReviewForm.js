@@ -4,7 +4,7 @@ app.component('review-form', {
     `<form class="review-form" @submit.prevent="onSubmit">
     <h3>Leave a review'</h3>
     <label for="name">Name:</label>
-    <input id="name" v-model="name"></input>
+    <input id="name" v-model="name">
 
     <label for="review">Review:</label>
     <textarea id="review" v-model="review"></textarea>
@@ -18,7 +18,7 @@ app.component('review-form', {
         <option>1</option>    
     </select>
 
-    <input class="button" type="submit" value="Submit"></input>
+    <input class="button" type="submit" value="Submit">
 </form>`,
 
 data() {
