@@ -19,7 +19,7 @@ app.component('review-form', {
     </select>
 
     <input class="button" type="submit" value="Submit"></input>
-</form>`
+</form>`,
 
 data() {
     return {
