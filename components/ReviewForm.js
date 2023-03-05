@@ -27,7 +27,7 @@ data() {
         review: '',
         rating: null
     }
-}
+},
 
 methods: {
     onSubmit() {
