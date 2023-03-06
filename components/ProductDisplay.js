@@ -41,7 +41,8 @@ app.component('product-display', {
       </div>
     </div>
     <review-form></review-form>
-  </div>`
+  </div>`,
+  
   data() {
     return {
         product: 'Socks',
